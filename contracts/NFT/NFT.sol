@@ -14,9 +14,9 @@ contract NFT is ERC721, Ownable, ReentrancyGuard {
 
     constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol) {}
 
-    function mint() public onlyOwner nonReentrant {
+    function mint(address mintTo) public onlyOwner nonReentrant {
         totalSupply.increment();
-        _mint(msg.sender, totalSupply.current());
+        _mint(mintTo, totalSupply.current());
     }
 
     function _baseURI() internal view override returns (string memory) {
