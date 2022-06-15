@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "name": "Demo NFT #2",
+  "image": "https://ipfs.imaginaryones.com/ipfs/QmbPyXfPjthuFSAHGAaiZ6SJC5dqPGSuAfgUpme6sDDaRx/2.png",
+  "describe": "product describe",
+  "attributes": [
+    {
+      "trait_type": "Ear",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "White"
+    }
+  ]
+}

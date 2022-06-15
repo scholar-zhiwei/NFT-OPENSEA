@@ -4,6 +4,7 @@ const metadataTemple = {
     id: 0,
     name: '',
     image: '',
+    describe: '',
     attributes: [
         {
             trait_type: 'Ear',
@@ -16,7 +17,7 @@ const metadataTemple = {
     ],
 }
 const nftName = 'Demo NFT'
-const uriPrefix = 'https://ipfs.imaginaryones.com/ipfs/QmdfzKVDMVXFQY5UxNWRZNdFpR8aL1oSGRjgW9z4XmquxS/'
+const uriPrefix = 'https://ipfs.imaginaryones.com/ipfs/QmbPyXfPjthuFSAHGAaiZ6SJC5dqPGSuAfgUpme6sDDaRx/'
 const uriSuffix = '.png'
 
 const attributeArr1 = ['Pink', 'Blue', 'Green']
@@ -27,6 +28,7 @@ async function createMetadata(id: number, attributes: any) {
     metadata['id'] = id
     metadata['name'] = nftName + ' #' + id
     metadata['image'] = uriPrefix + id + uriSuffix
+    metadata['describe'] = 'product describe'
     metadata['attributes'] = attributes
 
     const filename = './metadata/' + id

@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "name": "Demo NFT #3",
+  "image": "https://ipfs.imaginaryones.com/ipfs/QmbPyXfPjthuFSAHGAaiZ6SJC5dqPGSuAfgUpme6sDDaRx/3.png",
+  "describe": "product describe",
+  "attributes": [
+    {
+      "trait_type": "Ear",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Yellow"
+    }
+  ]
+}

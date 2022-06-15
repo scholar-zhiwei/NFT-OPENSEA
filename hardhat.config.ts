@@ -24,7 +24,7 @@ const namedAccounts = {
 
 export type Signers = { [name in keyof typeof namedAccounts]: SignerWithAddress }
 
-import './tasks'
+// import './tasks'
 
 module.exports = {
   solidity: {
